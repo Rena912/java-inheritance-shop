@@ -35,49 +35,49 @@ public class Prodotto {
         return prezzobase() + prezzobase() * iva / 100 ;
     }
     
-            public String getMarca() {
-            return marca;
-        }
+    public String getMarca() {
+        return marca;
+    }
 
-        public String getDescrizione() {
-            return descrizione;
-        }
+    public String getDescrizione() {
+        return descrizione;
+    }
 
-        public String getNomeCodice(){
-            return nomeCodice();
-        }
-  
-        public double getPrezzoBase(){
-            return this.prezzo;
-        }
- 
-        public double getIva(){
-            return this.iva;
-        }
+    public String getNomeCodice(){
+        return nomeCodice();
+    }
 
-        public double getPrezzoIva(){
-            return prezzoIva();
-        }
+    public double getPrezzoBase(){
+        return this.prezzo;
+    }
 
-        public int getCodice() {
-            return this.codice;
-        }
+    public double getIva(){
+        return this.iva;
+    }
 
-        public String getNome() {
-            return this.nome;
-        }
+    public double getPrezzoIva(){
+        return prezzoIva();
+    }
 
-        public double getPrezzo() {
-            return this.prezzo;
-        }
+    public int getCodice() {
+        return this.codice;
+    }
 
-        public void setNome(String nome) {
-            this.nome = nome;
-        }
+    public String getNome() {
+        return this.nome;
+    }
 
-        public void setDescrizione(String descrizione) {
-            this.descrizione = descrizione;
-        }
+    public double getPrezzo() {
+        return this.prezzo;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public void setDescrizione(String descrizione) {
+        this.descrizione = descrizione;
+    }
     
 
     
